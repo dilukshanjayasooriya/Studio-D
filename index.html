@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-container">
+
+    <header>
+        <div class="logo">Studio <span>D</span></div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://youtube.com/@studiodofficial?si=hHToaa_GknljKSB7" class="btn"> View Channel</a>
+    </header>
+
+    <main>
+        <div class="red-box">
+
+            <div class="image-section">
+                <img src="images/logo.jpeg" alt="Studio D Logo">
+            </div>
+
+            <div class="content-section">
+
+                <h2>Studio <span>D</span></h2>
+
+                <p>
+                    A popular Sri Lankan YouTube channel founded by
+                    Dilukshan Jayasooriya in 2021.
+                </p>
+
+                <ul>
+                    <li>🎵 Promotes emerging musical talent.</li>
+                    <li>🎸 Features acoustic covers and viral song remakes.</li>
+                    <li>🌟 Over 120,000 subscribers and 1.8 millions+ views.</li>
+                    <li>🤝 Supports collaborations with new artists.</li>
+                    <li>🌟 Sri Lankan Iconic Guitar Cover Release Channel.</li>
+                </ul>
+
+                <button class="details-btn" onclick="openPopup()">
+                    See More Details
+                </button>
+
+            </div>
+
+        </div>
+    </main>
+
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+
+        <h2>Studio D Youtube</h2> <br> <br>
+
+       <div class="popup-body">
+
+    <img src="images/award.jpeg" alt="Studio D Achievement">
+
+    <div class="popup-text">
+        <h3>Achivements</h3>
+
+        <p>
+            Studio D YouTube Channel has reached the Top 500
+            channels in Sri Lanka and is ranked among the
+            Top 50 subscribed music channels.
+        </p>
+
+        <p>
+           Furthermore, the Studio D YouTube channel 
+           received the Silver Play Button Award from YouTube
+            for surpassing the 100,000 subscriber milestone.
+        </p>
+
+    
+    </div>
+
+</div>
+    </div>
+</div>
+
+
+<section class="latest-videos">
+
+    <h2>Most Popular Uploads</h2>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <a href="https://youtu.be/fZvLIy1DRm0" target="_blank">
+                <img src="https://img.youtube.com/vi/fZvLIy1DRm0/maxresdefault.jpg" alt="Video 1">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/s-XyIFHr8Ag" target="_blank">
+                <img src="https://img.youtube.com/vi/s-XyIFHr8Ag/maxresdefault.jpg" alt="Video 2">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/6e_EmYDEOdA" target="_blank">
+                <img src="https://img.youtube.com/vi/6e_EmYDEOdA/maxresdefault.jpg" alt="Video 3">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/FG6FrJUwmZs?si=HqCSJEriNhR2v3cv" target="_blank">
+                <img src="https://img.youtube.com/vi/FG6FrJUwmZs/maxresdefault.jpg" alt="Video 4">
+            </a>
+           
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="latest-videos">
+
+    <h2>Latest Uploads</h2>
+
+    <div class="video-grid">
+
+        <div class="video-card">
+            <a href="https://youtu.be/1zHCI08Cfew?si=f7oJ0LGEBi1mpLGE" target="_blank">
+                <img src="https://img.youtube.com/vi/1zHCI08Cfew/maxresdefault.jpg" alt="Video 1">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/PJsl7ATJYy4?si=65ZAa8IhqexmfsPb" target="_blank">
+                <img src="https://img.youtube.com/vi/PJsl7ATJYy4/maxresdefault.jpg" alt="Video 2">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/gWTpTBKDohM?si=TvenjG9J0bliAigX" target="_blank">
+                <img src="https://img.youtube.com/vi/gWTpTBKDohM/maxresdefault.jpg" alt="Video 3">
+            </a>
+           
+        </div>
+
+        <div class="video-card">
+            <a href="https://youtu.be/xaeLVtc_zJA?si=MFTZhkHD2_TEGM9O" target="_blank">
+                <img src="https://img.youtube.com/vi/xaeLVtc_zJA/maxresdefault.jpg" alt="Video 4">
+            </a>
+           
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+window.onclick = function(event) {
+    let popup = document.getElementById("popup");
+
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+}
+</script>
+
+<footer class="footer">
+
+    <div class="footer-box">
+        <h3>Studio D</h3>
+        <p>
+            Studio D is a creative YouTube channel dedicated
+            to inspiring and entertaining audiences.
+        </p>
+    </div>
+
+    <div class="footer-box">
+        <h3>Quick Links</h3>
+        <a href="#">Home</a>
+        <a href="#">Videos</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-box">
+        <h3>Follow Us</h3>
+        <a href="#">YouTube</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+    </div>
+
+    <div class="footer-box">
+        <h3>Contact</h3>
+        <p>studiodofficial@gmail.com</p>
+        <p>Sri Lanka</p>
+    </div>
+
+</footer>
+
+<div class="copyright">
+    © 2026 Studio D. All Rights Reserved.
+</div>
+
+</body>
+</html>
