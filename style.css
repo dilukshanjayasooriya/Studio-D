@@ -20,7 +20,7 @@
 
 body {
     background:
-        linear-gradient(rgba(0,0,0,0.7),
+        linear-gradient(rgba(203, 83, 83, 0.375),
         rgba(0,0,0,0.7)),
         url("images/bgimage.jpeg");
 
